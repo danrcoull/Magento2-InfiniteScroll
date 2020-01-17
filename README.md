@@ -1,16 +1,23 @@
+# Hi Dan
+
+Please give me a call - 01244 911 366 :)
+
+Niko
+
+
 # Magento 2 - infinate Scroll
 
-Allows the page to load automatically more products on the search results and category lists pages as customers scroll down towards the bottom of the page. Giving the customer a seamless shopping experience. 
+Allows the page to load automatically more products on the search results and category lists pages as customers scroll down towards the bottom of the page. Giving the customer a seamless shopping experience.
 
-The key features is this magento 2.*.* module is its fully supported widget capability to intergrate other types of lists into your theme. Whist allowing full customerisation of how it works directly from magento 2 backend, for the novice magento user to configure it to work as they wish. 
+The key features is this magento 2.*.* module is its fully supported widget capability to intergrate other types of lists into your theme. Whist allowing full customerisation of how it works directly from magento 2 backend, for the novice magento user to configure it to work as they wish.
 
-This could be Masonry display, isotope or Packery style displays. As this module is built with magento 2 best practices customization of the javascript itself can easily be made using mixins to do other things using the infinite scroll events. 
+This could be Masonry display, isotope or Packery style displays. As this module is built with magento 2 best practices customization of the javascript itself can easily be made using mixins to do other things using the infinite scroll events.
 
 Fully customizable to any theme, just change the css clases for your list.
 
 Best part of it This Magento 2 infinite scroll module is FREE
 
-Compatible with any version of magento 2. 
+Compatible with any version of magento 2.
 
 ### Can i use this on other lists?
 
@@ -35,7 +42,7 @@ You can see two segmants
     </div>
 </script>
 ````
-2. The actual script initialization 
+2. The actual script initialization
 
 ```html
 <script type="text/x-magento-init">
@@ -55,7 +62,7 @@ Replace the above as so
     {
         ".list-item-container-class": {
             "scroll": " {
-                "config": { 
+                "config": {
                     path: '.pagination-next-class',
                     append: '.list-item-class',
                     checkLastPage: '.pagination-next-class',
@@ -79,7 +86,7 @@ Replace the above as so
 </script>
 ```
 
-The above will work on any list whether it nested 
+The above will work on any list whether it nested
 
 ```html
 <div class="list-items">
@@ -96,9 +103,9 @@ Or
      ...etc
  </div>
  ```
-Ideas: 
+Ideas:
 
-Any ideas feel free to post them in issues where to go next with this. 
+Any ideas feel free to post them in issues where to go next with this.
 
 Other Modules:
 
@@ -106,7 +113,7 @@ Other Modules:
 
 Coming Soon:
 
-Company Hirachy 
+Company Hirachy
 
 Installation:
 
@@ -116,12 +123,12 @@ composer require gremlintech/module-infinatescroll:dev-master
 php bin/magento module:enable GremlinTech_InfinateScroll
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile #yes do this we use extension attributes so you can see the original price and the custom price.
-php bin/magento setup:static-content:deploy en_GB en_US -f 
+php bin/magento setup:static-content:deploy en_GB en_US -f
 php bin/magento cache:flush
- 
+
 ```
 
-Yes i work hard, plenty more modules to come feel free to by me a coffee below. 
+Yes i work hard, plenty more modules to come feel free to by me a coffee below.
 
 
 
@@ -130,5 +137,3 @@ Yes i work hard, plenty more modules to come feel free to by me a coffee below.
 
 Infinate Scroll library credit to https://github.com/metafizzy/infinite-scroll
 Infinate Scroll License at [infinite-scroll.com](https://infinite-scroll.com/#commercial-license)
-
-
